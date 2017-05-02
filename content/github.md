@@ -6,5 +6,7 @@ weight = 1
 
 +++
 
-# Here is a page
+Here are links to some of my favorite things...
 
+* [Google](http://google.com)
+* [Google](http://google.com)
