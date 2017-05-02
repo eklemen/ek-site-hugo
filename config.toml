@@ -1,0 +1,20 @@
+baseurl = "http://example.org"
+title = "Dimension"
+theme = "dimension"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+disableRSS = true
+
+[params]
+  title = "Dimension"
+  description = '<!--[-->A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<!--]--><br />
+                <!--[-->for free under the <a href="https://html5up.net/license">Creative Commons</a> license.<!--]-->'
+  logo = "fa-diamond"
+  copyright = "Untitled"
+
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+title = "Dimension"
