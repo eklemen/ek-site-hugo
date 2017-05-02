@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ek-site-hugo.github.io/public/sitemap.xml
+Sitemap: https://ek-site-hugo.github.io//sitemap.xml

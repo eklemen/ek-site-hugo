@@ -6,7 +6,7 @@ weight = 0
 
 +++
 
-<form id="contactform" method="post" action="https://formspree.io/insert.your@mail.adress">
+<form id="contactform" method="post" action="https://formspree.io/ejklemen@gmail.com">
 	<div class="field half first">
 		<input type="text" name="name" id="name" placeholder="Name" required/>
 	</div>
@@ -21,7 +21,7 @@ weight = 0
 		<li><input type="reset" value="Reset" /></li>
 	</ul>
 	<input type="hidden" name="_next" value="?sent#formspree" />
-	<input type="hidden" name="_subject" value="Subject for your mail like new message" />
+	<input type="hidden" name="_subject" value="Message from evanklemen.com" />
 	<input type="text" name="_gotcha" style="display:none" />
 </form>
 <span id="contactformsent">Thank you for your message</span>
