@@ -1,4 +1,4 @@
-baseurl = "http://example.org"
+baseurl = "https://ek-site-hugo.github.io/public"
 title = "Dimension"
 theme = "dimension"
 languageCode = "en-us"
