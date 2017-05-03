@@ -1,0 +1,16 @@
+	{{ partial "head.html" . }}
+	<body>
+    {{ partial "nav.html" . }}
+
+    {{ partial "hero.html" . }}
+
+    <h1 class="headline">Recent Posts</h1>
+    <section id="wrapper" class="home">
+        {{ partial "post-list.html"  . }}
+        {{ partial "pagination.html" . }}
+    </section>
+    
+    {{ partial "footer.html"     . }}
+    {{ partial "js.html" . }}
+    </body>
+</html>

@@ -1,0 +1,36 @@
+body{
+    background-color: #2d2d2d;
+    color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: #d3d3d3;
+}
+#post-list a{
+    color: #9cabe8;
+}
+#header{
+    margin-top: 3em;
+}
+#wrapper, #wrapper.home{
+    background-color: #f2f0ec;
+    max-width: 800px;
+    width: 100%;
+    padding: 40px 40px 0 40px;
+}
+.main-nav{
+    width: 100%;
+}
+
+.profile{
+    margin-top: 4em;
+}
+
+#post-list hr{
+    background-color: #ccc;
+    margin: 0;
+}
+#post-list h2{
+    max-width: 600px;
+}
