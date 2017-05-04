@@ -20,12 +20,20 @@ h1{
     font-size: 1.2em;
 }
 
-.summary{
+.article-list .summary{
   color: #2d2d2d;
+}
+.article-list > .list-item{
+  padding: 2rem;
+  margin-bottom: 3rem;
 }
 
 #post-list .summary>a{
   color: #d27b53;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  display: inline;
 }
 
 #header{
