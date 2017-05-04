@@ -1,5 +1,5 @@
-baseurl = "http://evanklemen.com/"
-title = "Dimension"
+baseurl = "httpgs://evanklemen.com/"
+title = "Evan Klemen"
 theme = "dimension"
 languageCode = "en-us"
 defaultContentLanguage = "en"
@@ -17,4 +17,4 @@ disableRSS = true
 [languages.en]
 languageName = "English"
 weight = 1
-title = "Dimension"
+title = "Evan Klemen"

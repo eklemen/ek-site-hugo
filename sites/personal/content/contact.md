@@ -2,7 +2,7 @@
 date = "2017-05-02T13:56:55-04:00"
 draft = false
 title = "contact"
-weight = 0
+weight = 3
 
 +++
 
