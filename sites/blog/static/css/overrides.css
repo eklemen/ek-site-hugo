@@ -408,6 +408,16 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 
+nav.main-nav{
+  color: #747369;
+  background-color: #393939;
+  padding: 1rem;
+}
+
+p.small{
+  margin: 0;
+}
+
 /*
 * Home page
 */
@@ -415,8 +425,13 @@ h1{
     color: #d3d3d3;
 }
 #post-list h2{
-    color: #9cabe8;
+    color: #5badf0;
     font-size: 1.2em;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+#post-list .dates{
+  color: #666;
 }
 
 .article-list .summary{
@@ -458,8 +473,11 @@ h1{
     background-color: #ccc;
     margin: 0;
 }
+#post-list hr:last-child{
+  display: none;
+}
 #post-list h2{
-    max-width: 600px;
+    max-width: 570px;
 }
 
 .hero-banner{
@@ -488,7 +506,7 @@ h1{
 .post{
   max-width: 800px;
   width: 100%;
-  margin-bottom: 4rem;
+  margin: 0 auto 4rem auto;
 }
 section > article.post > header {
   padding: 0;
@@ -498,6 +516,7 @@ section > article.post > header {
 .post > header > h1.headline{
   margin-bottom: 6px;
   font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
 }
 .post h2.headline .tags{
   margin-bottom: 0;
@@ -516,6 +535,18 @@ section > article.post > header {
 }
 #post-body ul, #post-body ol{
   margin-bottom: 1rem;
+}
+body>section.single-post{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/*
+* archive (/blog/post/)
+*/
+#wrapper.archive, #wrapper.tags{
+  margin-top: 4rem;
 }
 
 /*

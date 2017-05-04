@@ -1,8 +1,8 @@
 # Site settings
-baseurl = "http://nodejh.com/blog/"
+baseurl = "http://evanklemen.com/blog/"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
-title = "Blog Title"
+title = "Evans Blog"
 theme = "hugo-theme-cactus"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "your_google_analytics_code"
@@ -10,10 +10,10 @@ hasCJKLanguage = true
 
 [params]
 	name = "Hugo"
-	description = "Blog Description"
-	bio = "Blog biology"
+	description = ""
+	bio = ""
 	# Enter optionally your twitter account
-	twitter = "your_twotter"
+	twitter = ""
 	enableRSS = false
 
 	# Disqus comment
@@ -22,7 +22,7 @@ hasCJKLanguage = true
 	enableDisqus = false
 
 	# Duoshuo comment
-	duoshuoShortname = "your_duoshuo_short_name"
+	duoshuoShortname = ""
 	# Disable duoshuo comments by set `enableDuoshuo = "false"`
 	enableDuoshuo = false
 
@@ -34,7 +34,7 @@ hasCJKLanguage = true
 	# Enable baiduAnalytics
 	enableBaiduAnalytics = false
 	# Baidu Tongji Code
-	baiduAnalytics = 'your_baidu_tongji_code'
+	baiduAnalytics = ''
 
 	# Add custom assets with their paths relative to the static folder
 	customCSS = ['css/overrides.css']
@@ -52,7 +52,7 @@ hasCJKLanguage = true
 	olderPosts = ""
 	newerPosts = ""
 	readMore = ""
-	# copyright = ""
+	copyright = ""
 	# Sharing options and author information in posts
 	aboutAuthor = "I am so interesting."
 	# tweet = ""
@@ -64,11 +64,12 @@ hasCJKLanguage = true
 	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
 	iconFont = "font-awesome"
   # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
-  socialIconStyle = ""
+#   socialIconStyle = ""
 
 
 # Add additional social link entries underneath
-# [social]
-# 	facebook-square = "your_facebook_link"
-#   twitter-square = "your_twitter_link"
-#   github-square = "your_github_link"
+[social]
+	# facebook-square = "your_facebook_link"
+	# twitter-square = "your_twitter_link"
+	github-square = "https://github.com/eklemen"
+	pied-piper-alt = "http://evanklemen.com"

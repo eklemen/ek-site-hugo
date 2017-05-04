@@ -1,4 +1,5 @@
 {{ $baseurl := .Site.BaseURL }}
+{{ $url := replace .Permalink $baseurl "" }}
 <div class="hero-banner">
     <h1 class="site-title">
       <span>[Evan Klemen] ></span><span class="blinking-cursor">_</span>
@@ -7,8 +8,9 @@
     <div class="hero-logo">
       <!--<img src="{{ $baseurl }}img/base16-eighties.svg">-->
     </div>
-
-    <div>
-        Mainly posts for my own reference, but for all to enjoy.
-    </div>
+    {{ if not $url }}
+      <dvi>Here are some things I blog about.</dvi>
+    {{ end }}
+    
+    
 </div>

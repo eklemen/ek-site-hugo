@@ -1,4 +1,4 @@
-baseurl = "https://ek-site-hugo.github.io/"
+baseurl = "http://evanklemen.com/"
 title = "Dimension"
 theme = "dimension"
 languageCode = "en-us"
