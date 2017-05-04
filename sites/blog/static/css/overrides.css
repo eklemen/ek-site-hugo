@@ -9,12 +9,25 @@ body {
   font-family: 'Source Code Pro', monospace;
 }
 
+/*
+* Home page
+*/
 h1{
     color: #d3d3d3;
 }
-#post-list a{
+#post-list h2{
     color: #9cabe8;
+    font-size: 1.2em;
 }
+
+.summary{
+  color: #2d2d2d;
+}
+
+#post-list .summary>a{
+  color: #d27b53;
+}
+
 #header{
     margin-top: 3em;
 }
@@ -23,6 +36,8 @@ h1{
     max-width: 800px;
     width: 100%;
     padding: 40px 40px 0 40px;
+    margin: 0 auto 6em auto;
+    border-radius: 3px;
 }
 .main-nav{
     width: 100%;
@@ -44,7 +59,7 @@ h1{
     text-align: center;
 }
 
-.headline{
+.headline, .post .headline{
     width: 100%;
     max-width: 800px;
     margin: 1em auto;
@@ -59,6 +74,74 @@ h1{
     font-size: 0.9em;
     color: #747369;
 }
+
+/*
+* .post (layouts/_default/single.html)
+*/
+.post{
+  max-width: 800px;
+  width: 100%;
+}
+
+/*
+Move to animations.css
+*/
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 30px;
+  color: #d3d3d3;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #d3d3d3;
+  }
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #d3d3d3;
+  }
+}
+
+@-webkit-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #d3d3d3;
+  }
+}
+
+@-ms-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #d3d3d3;
+  }
+}
+
+@-o-keyframes blink {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: #d3d3d3;
+  }
+}
+
 /**********************/
 
 .container {
