@@ -1,49 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Golang on Blog Title</title>
-    <link>http://nodejh.com/blog/categories/golang/</link>
-    <description>Recent content in Golang on Blog Title</description>
+    <title>Golang on Evans Blog</title>
+    <link>http://evanklemen.com/blog/categories/golang/</link>
+    <description>Recent content in Golang on Evans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://nodejh.com/blog/categories/golang/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://evanklemen.com/blog/categories/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Primer</title>
-      <link>http://nodejh.com/blog/post/thirdpost/</link>
+      <link>http://evanklemen.com/blog/post/thirdpost/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://nodejh.com/blog/post/thirdpost/</guid>
-      <description>Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.</description>
+      <guid>http://evanklemen.com/blog/post/thirdpost/</guid>
+      <description>Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for its template engine.
+It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other.
+ One Two Three  Template systems from different languages or frameworks you will find a lot of similarities in go templates.</description>
     </item>
     
     <item>
       <title>Template test...</title>
-      <link>http://nodejh.com/blog/post/test/</link>
+      <link>http://evanklemen.com/blog/post/test/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://nodejh.com/blog/post/test/</guid>
+      <guid>http://evanklemen.com/blog/post/test/</guid>
       <description>Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.</description>
     </item>
     
     <item>
       <title>go Template Primer</title>
-      <link>http://nodejh.com/blog/post/first/</link>
+      <link>http://evanklemen.com/blog/post/first/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://nodejh.com/blog/post/first/</guid>
+      <guid>http://evanklemen.com/blog/post/first/</guid>
       <description>Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.</description>
     </item>
     
     <item>
       <title>moar</title>
-      <link>http://nodejh.com/blog/post/moarposts/</link>
+      <link>http://evanklemen.com/blog/post/moarposts/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://nodejh.com/blog/post/moarposts/</guid>
+      <guid>http://evanklemen.com/blog/post/moarposts/</guid>
       <description>Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.</description>
     </item>
     
