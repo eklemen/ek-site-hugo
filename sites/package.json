@@ -1,0 +1,16 @@
+{
+  "name": "sites",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "blog-build": "cd blog && hugo",
+    "personal-build": "cd personal && hugo",
+    "build": "cd blog && hugo && cd ../personal && hugo",
+    "blog-deploy": "aws s3 sync ./blog/public/ s3://evanklemen.com/blog",
+    "personal-deploy": "aws s3 sync ./personal/public/ s3://evanklemen.com/",
+    "deploy": "npm run blog-deploy && npm run personal-deploy"
+  }
+}
