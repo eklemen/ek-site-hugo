@@ -3,7 +3,7 @@ baseurl = "http://evanklemen.com/blog/"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
 title = "Evans Blog"
-theme = "hugo-theme-cactus"
+theme = "hugo-theme-cactus-plus"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "your_google_analytics_code"
 hasCJKLanguage = true

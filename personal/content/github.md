@@ -14,9 +14,6 @@ A simple extension for the [Visual Studio Code](https://code.visualstudio.com/) 
 
 **Source: [eklemen/hungry-backspace](https://github.com/eklemen/hungry-backspace)**
 
-**ScreenShot: <div class="reveal">Click me</div>**
-<div class="slide-content hidden" >Content to show</div>
-
 **Extension: [Extension marketplace](https://marketplace.visualstudio.com/items?itemName=eklemen.hungry-backspace)**
 
 <hr/>
