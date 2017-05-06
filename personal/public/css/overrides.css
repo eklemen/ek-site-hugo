@@ -1,3 +1,20 @@
 .hidden{
     display: none;
 }
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#header>.content>.inner{
+    padding: 1.4rem 3rem;
+}
+#header h1{
+    margin: 0;
+}
+#github p{
+    margin: 0 0 1rem 0;
+}
+#github>p>strong>a{
+    color: #6699cc;
+}

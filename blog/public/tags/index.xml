@@ -6,51 +6,24 @@
     <description>Recent content in Tags on Evans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://evanklemen.com/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bars</title>
-      <link>http://evanklemen.com/blog/tags/bars/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://evanklemen.com/blog/tags/bars/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Development</title>
       <link>http://evanklemen.com/blog/tags/development/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://evanklemen.com/blog/tags/development/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Erlang</title>
-      <link>http://evanklemen.com/blog/tags/erlang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://evanklemen.com/blog/tags/erlang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Foo</title>
-      <link>http://evanklemen.com/blog/tags/foo/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://evanklemen.com/blog/tags/foo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Go</title>
       <link>http://evanklemen.com/blog/tags/go/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://evanklemen.com/blog/tags/go/</guid>
       <description></description>
@@ -59,34 +32,25 @@
     <item>
       <title>Golang</title>
       <link>http://evanklemen.com/blog/tags/golang/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://evanklemen.com/blog/tags/golang/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Gopher</title>
-      <link>http://evanklemen.com/blog/tags/gopher/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Hugo</title>
+      <link>http://evanklemen.com/blog/tags/hugo/</link>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://evanklemen.com/blog/tags/gopher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Templates</title>
-      <link>http://evanklemen.com/blog/tags/templates/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://evanklemen.com/blog/tags/templates/</guid>
+      <guid>http://evanklemen.com/blog/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Themes</title>
       <link>http://evanklemen.com/blog/tags/themes/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://evanklemen.com/blog/tags/themes/</guid>
       <description></description>

@@ -1,0 +1,189 @@
+    <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Hugo">
+		
+		<meta name="generator" content="Hugo 0.20.7" />
+		<title>Hugo post on Hugo &middot; Evans Blog</title>
+		<link rel="shortcut icon" href="http://evanklemen.com/blog/images/favicon.ico">
+		<link rel="stylesheet" href="http://evanklemen.com/blog/css/style.css">
+		<link rel="stylesheet" href="http://evanklemen.com/blog/css/highlight.css">
+		
+		<link rel="stylesheet" href="http://evanklemen.com/blog/css/overrides.css">
+		
+
+		<link rel="stylesheet" href="http://evanklemen.com/blog/css/font-awesome.min.css">
+
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://evanklemen.com/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://evanklemen.com/blog/post'>Archive</a>
+	<a href='http://evanklemen.com/blog/tags'>Tags</a>
+
+	
+
+	
+</nav>
+
+
+        <section class="single-post">
+            <article class="post">
+                <header>
+                    <h1 class="headline">
+                        Hugo post on Hugo
+                    </h1>
+                    <h2 class="headline">
+                    Apr 6, 2014 00:00
+                    · 490 words
+                    · 3 minutes read
+                      <span class="tags">
+                      
+                      
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/go">go</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/golang">golang</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/hugo">hugo</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/themes">themes</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/development">development</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h2 id="intro">Intro</h2>
+
+<p><a href="https://gohugo.io">Hugo</a> is a static site generator, not unlike Jekyll or <a href="https://www.staticgen.com/">one of the many others out there</a>. There&rsquo;s a decent number of <a href="https://themes.gohugo.io/">themes</a> to choose from, and the simplicity to get a functioning site up and running in such little time/effor made this an appealing choice. The appeal of a static site generator is that the build files are&hellip; well static. This keeps hosting cheap, and you generally don&rsquo;t need to worry about security breaches <em>cough wordpress</em>.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>My current set up is to develop and build the site/blog locally and then sync the <code>public</code> directory to my s3 bucket which is set up to serve a static site. Here&rsquo;s a quick setup.</p>
+
+<h4 id="first-update-brew-and-install-the-hugo-cli">First update brew and install the hugo cli</h4>
+
+<pre><code class="language-bash">brew update &amp;&amp; brew install hugo
+</code></pre>
+
+<h4 id="create-a-new-site">Create a new site</h4>
+
+<pre><code class="language-bash">hugo new site yourCoolSite
+cd yourCoolSite
+</code></pre>
+
+<h4 id="hugo-needs-a-theme-before-it-will-render-anything">Hugo needs a theme before it will render anything</h4>
+
+<p>For this example we will install the <a href="https://themes.gohugo.io/hugo-theme-cactus-plus/">Cactus Plus</a> theme, which is the theme this blog is based off.</p>
+
+<pre><code class="language-bash"># clone theme into your themes/ directory
+git clone https://github.com/nodejh/hugo-theme-cactus-plus.git themes/hugo-theme-cactus-plus
+</code></pre>
+
+<p>*NOTE: some themes haven&rsquo;t been updated or are incomplete. The best ones to start with are themes that include an <code>exampleSite</code>. This directory will contain the configuration we need to get started quickly.</p>
+
+<p>Copy the contents of <code>themes/hugo-theme-cactus-plus/exampleSite/config.toml</code> into the <code>config.toml</code> file at your project root. You will see a long list of different configurations. These can be accessed from within the templates in your theme. We will look at how to override certain parts of your new Hugo site a little later on.</p>
+
+<h4 id="serve-it">Serve it</h4>
+
+<pre><code class="language-bash">hugo server
+</code></pre>
+
+<p>Point your browser to <code>localhost:1313</code> and boom (hopefully).</p>
+
+<h4 id="adding-content">Adding content</h4>
+
+<p>Since this theme is a blogging theme, we should add some blog posts.</p>
+
+<pre><code class="language-bash">hugo new post/firstPost.md
+</code></pre>
+
+<p>The file gets generated and added to <code>content/post/firstPost.md</code>.</p>
+
+<h4 id="overwriting-the-theme">Overwriting the theme</h4>
+
+<p>We don&rsquo;t want to modify the theme directly. One reason is version control will ignore the files inside the theme you cloned earlier. This means if you were to pick it up on another machine, you would have to re-clone the theme. Looking at the files inside a theme, we notice that the folder structure is set up like our own site with images, layout, and static. If you wanted to make some css changes simply create a css file in your <code>static/css</code> directory.</p>
+
+<p>Some themes, like the one we are using make injecting new css and javascript easy. Below, I have added <code>css/overrides.css</code> since the paths are relative to <code>static/</code>.</p>
+
+<pre><code class="language-toml"># config.toml
+
+customCSS = ['css/overrides.css']
+customJS  = []
+</code></pre>
+
+<p>To change layouts, copy the appropriate file from the themes <code>layouts</code> directory into your <code>layouts/</code> directory and it will overwrite accordingly.</p>
+
+<h4 id="the-build">The build</h4>
+
+<p>To build we simply run:</p>
+
+<pre><code class="language-bash">hugo
+</code></pre>
+
+<p>This will build your site into <code>public/</code> directory which can be moved up to s3 or your own hosting service.</p>
+
+<p>AWS and hosting on s3 is another topic all together, so this conversation will be continued in the <a href="https://evanklemen/blog/s3hosting">next post</a>.</p>
+
+                </section>
+            </article>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/eklemen">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="http://evanklemen.com">
+        <i class="fa fa-pied-piper-alt"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://evanklemen.com/blog/js/jquery-2.2.4.min.js"></script>
+<script src="http://evanklemen.com/blog/js/main.js"></script>
+<script src="http://evanklemen.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+    </body>
+</html>

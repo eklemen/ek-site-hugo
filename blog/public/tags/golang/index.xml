@@ -6,29 +6,18 @@
     <description>Recent content in Golang on Evans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://evanklemen.com/blog/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Primer</title>
-      <link>http://evanklemen.com/blog/post/thirdpost/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      <title>Hugo post on Hugo</title>
+      <link>http://evanklemen.com/blog/post/hugo/</link>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://evanklemen.com/blog/post/thirdpost/</guid>
-      <description>Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for its template engine.
-It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other.
- One Two Three  Template systems from different languages or frameworks you will find a lot of similarities in go templates.</description>
-    </item>
-    
-    <item>
-      <title>go Template Primer</title>
-      <link>http://evanklemen.com/blog/post/first/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://evanklemen.com/blog/post/first/</guid>
-      <description>Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.</description>
+      <guid>http://evanklemen.com/blog/post/hugo/</guid>
+      <description>Intro Hugo is a static site generator, not unlike Jekyll or one of the many others out there. There&amp;rsquo;s a decent number of themes to choose from, and the simplicity to get a functioning site up and running in such little time/effor made this an appealing choice. The appeal of a static site generator is that the build files are&amp;hellip; well static. This keeps hosting cheap, and you generally don&amp;rsquo;t need to worry about security breaches cough wordpress.</description>
     </item>
     
   </channel>
