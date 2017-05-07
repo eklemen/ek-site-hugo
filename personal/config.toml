@@ -1,4 +1,4 @@
-baseurl = "httpgs://evanklemen.com/"
+baseurl = "https://evanklemen.com/"
 title = "Evan Klemen"
 theme = "dimension"
 languageCode = "en-us"
