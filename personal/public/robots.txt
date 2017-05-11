@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: httpgs://evanklemen.com//sitemap.xml
+Sitemap: https://evanklemen.com//sitemap.xml

@@ -14,6 +14,5 @@ $(document).ready(function($) {
         } else {
             $('.slide-content').slideUp("fast");
         }
-    })
-    $('a[href]').attr('target', '_blank');
+    });
 });
