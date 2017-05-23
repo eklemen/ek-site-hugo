@@ -6,10 +6,21 @@
     <description>Recent content on Evans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://evanklemen.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Building a RESTful API with Symfony3</title>
+      <link>http://evanklemen.com/blog/post/symfonyapi/</link>
+      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://evanklemen.com/blog/post/symfonyapi/</guid>
+      <description>Intro I&amp;rsquo;m going to be utilizing Symfony 3 to build out a RESTful API.
+Disclaimer: I am not a PHP developer. I am merely documenting my learning and process I was exposed to. This walkthrough does not address security flaws which exist in this application.
+Stuff you need to install  PHP (I&amp;rsquo;m using version 7.1.2) MySQL Symfony framework  The easiest way to tackle the first 2 steps above are via homebrew.</description>
+    </item>
     
     <item>
       <title>Hugo post on Hugo</title>

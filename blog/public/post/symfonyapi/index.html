@@ -1,0 +1,175 @@
+    <!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Hugo">
+		
+		<meta name="generator" content="Hugo 0.20.7" />
+		<title>Building a RESTful API with Symfony3 &middot; Evans Blog</title>
+		<link rel="shortcut icon" href="http://evanklemen.com/blog/images/favicon.ico">
+		<link rel="stylesheet" href="http://evanklemen.com/blog/css/style.css">
+		<link rel="stylesheet" href="http://evanklemen.com/blog/css/highlight.css">
+		
+		<link rel="stylesheet" href="http://evanklemen.com/blog/css/overrides.css">
+		
+
+		<link rel="stylesheet" href="http://evanklemen.com/blog/css/font-awesome.min.css">
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-62398274-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='http://evanklemen.com/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='http://evanklemen.com/blog/post'>Archive</a>
+	<a href='http://evanklemen.com/blog/tags'>Tags</a>
+
+	
+
+	
+</nav>
+
+
+        <section class="single-post">
+            <article class="post">
+                <header>
+                    <h1 class="headline">
+                        Building a RESTful API with Symfony3
+                    </h1>
+                    <h2 class="headline">
+                    May 22, 2017 00:00
+                    · 178 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/symfony">symfony</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/symfony3">symfony3</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/php">php</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/api">api</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/mysql">mysql</a>
+                          
+                              &bull;<a href="http://evanklemen.com/blog/tags/rest">rest</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h1 id="intro">Intro</h1>
+
+<p>I&rsquo;m going to be utilizing Symfony 3 to build out a RESTful API.</p>
+
+<p><strong>Disclaimer:</strong> I am not a PHP developer. I am merely documenting my learning and process I was exposed to. This walkthrough does not address security flaws which exist in this application.</p>
+
+<h1 id="stuff-you-need-to-install">Stuff you need to install</h1>
+
+<ol>
+<li>PHP (I&rsquo;m using version 7.1.2)</li>
+<li>MySQL</li>
+<li>Symfony framework</li>
+</ol>
+
+<p>The easiest way to tackle the first 2 steps above are via <a href="https://brew.sh/">homebrew</a>.</p>
+
+<pre><code>brew update
+brew tap homebrew/homebrew-php
+brew install php71
+brew install mysql
+
+# check if successful (may need to open new terminal window/tab)
+php --version
+mysql --version
+</code></pre>
+
+<p>Lastly, it&rsquo;s probably useful to install <a href="http://symfony.com/doc/current/setup.html">Symfony</a> as well.</p>
+
+<p>The link above is for the Symfony setup page, but for the lazy here&rsquo;s what you need.</p>
+
+<pre><code>sudo mkdir -p /usr/local/bin
+sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
+sudo chmod a+x /usr/local/bin/symfony
+
+# Did it work?! (again, may need new tab/window)
+symfony -v
+</code></pre>
+
+<h1 id="let-s-create-the-project">Let&rsquo;s create the project</h1>
+
+<p>Imagine for a second something exciting we could build with our API, now forget your idea because we are making a TODO app <img src="/images/deal_with_it.gif" alt="Deal with it" /></p>
+
+<pre><code>symfony new todo_api
+</code></pre>
+
+                </section>
+            </article>
+
+            
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://github.com/eklemen">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+    <a class="symbol" href="http://evanklemen.com">
+        <i class="fa fa-pied-piper-alt"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a>
+    </p>
+</footer>
+
+        </section>
+
+        <script src="http://evanklemen.com/blog/js/jquery-2.2.4.min.js"></script>
+<script src="http://evanklemen.com/blog/js/main.js"></script>
+<script src="http://evanklemen.com/blog/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+    </body>
+</html>

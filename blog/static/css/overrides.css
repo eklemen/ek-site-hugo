@@ -541,6 +541,9 @@ body>section.single-post{
   flex-direction: column;
   height: 100%;
 }
+.img-160{
+  width: 160px;
+}
 
 /*
 * archive (/blog/post/)
