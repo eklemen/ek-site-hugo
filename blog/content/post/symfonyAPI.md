@@ -40,10 +40,16 @@ sudo chmod a+x /usr/local/bin/symfony
 symfony -v
 ```
 
-# Let's create the project
-Imagine for a second something exciting we could build with our API, now forget your idea because we are making a TODO app.
+# Let's create a project
+Imagine for a second... imagine something exciting we could build with our API, now forget your idea because we are making a TODO app.
+
 <img class="img-160" src="/blog/images/dealwithit.gif" alt="Deal with it">
 ```
+# run this in your terminal
 symfony new todo_api
+# after Symfony does its thing
+cd todo_api
 ```
+> NOTE: I'm sure you have used other package managers to install dependencies, [Composer](https://getcomposer.org/) is what php uses. This should be included when you drop a new symfony project. Follow [this link](https://getcomposer.org/doc/00-intro.md) for details on how to install manually to your global PATH or otherwise.
+
 
