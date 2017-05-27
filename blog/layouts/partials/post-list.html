@@ -3,7 +3,7 @@
     {{ $url := replace .Permalink .Site.BaseURL "" }}
         {{ if ne $url "about/" }}
             <article class="list-item">
-                <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2 2000" }}</aside></a>
+                <a href='{{ .Permalink }}'><aside class="dates">{{ .Date.Format "Jan 2" }}</aside></a>
                 <a href='{{ .Permalink }}'><h2>{{ .Title }}</h2></a>
                 <section class="summary">
                     {{ .Description | markdownify }}

@@ -1,5 +1,6 @@
 +++
 categories = ["API", "PHP", "Symfony"]
+draft = true
 date = "2017-05-22"
 tags = ["symfony", "symfony3", "php", "api", "mysql", "rest"]
 title = "Building a RESTful API with Symfony3"

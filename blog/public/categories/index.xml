@@ -6,24 +6,15 @@
     <description>Recent content in Categories on Evans Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jun 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://evanklemen.com/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Api</title>
-      <link>http://evanklemen.com/blog/categories/api/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://evanklemen.com/blog/categories/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blog</title>
       <link>http://evanklemen.com/blog/categories/blog/</link>
-      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://evanklemen.com/blog/categories/blog/</guid>
       <description></description>
@@ -32,27 +23,9 @@
     <item>
       <title>Golang</title>
       <link>http://evanklemen.com/blog/categories/golang/</link>
-      <pubDate>Sun, 06 Apr 2014 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 04 Jun 2017 00:00:00 +0000</pubDate>
       
       <guid>http://evanklemen.com/blog/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Php</title>
-      <link>http://evanklemen.com/blog/categories/php/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://evanklemen.com/blog/categories/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Symfony</title>
-      <link>http://evanklemen.com/blog/categories/symfony/</link>
-      <pubDate>Mon, 22 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://evanklemen.com/blog/categories/symfony/</guid>
       <description></description>
     </item>
     
