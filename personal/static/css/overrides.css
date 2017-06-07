@@ -18,6 +18,11 @@
 #github>p>strong>a{
     color: #6699cc;
 }
+#github{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
 #wrapper{
     height:100vh;
 }
